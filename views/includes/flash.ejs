@@ -1,0 +1,11 @@
+<% if (success && success.length) { %>
+  <div id="successMessage" class="bg-green-500 text-white w-20 p-4 rounded">
+    <%= success %>
+  </div>
+  <% } %> <% if (error && error.length) { %>
+  <div id="errorMessage" class="bg-red-500 text-white w-20 p-4 rounded">
+    <%= error %>
+  </div>
+  <% } %>
+
+<script src="/js/flash.js"></script>
